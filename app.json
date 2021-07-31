@@ -1,0 +1,12 @@
+{
+  "name": "nina-mobile",
+  "displayName": "nina-mobile",
+  "expo": {
+    "name": "nina-mobile",
+    "slug": "nina-mobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
