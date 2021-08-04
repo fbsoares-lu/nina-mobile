@@ -1,9 +1,15 @@
+import 'react-native-gesture-handler';
 import React from 'react';
+import { StatusBar } from 'react-native';
 
-import { Home } from './src/screen/Home';
+import { Routes } from './src/routes';
+
 
 export default function App() {
   return (
-    <Home/>
+    <>
+      <StatusBar barStyle="dark-content" translucent backgroundColor="transparent"/>
+      <Routes />
+    </>
   );
 }

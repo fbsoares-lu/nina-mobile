@@ -28,8 +28,6 @@ export function Home() {
                 }}
             >
                 <Marker 
-                    pinColor='#320a7c'
-                    icon={pawPin}
                     coordinate={{
                         latitude: -8.2071019,
                         longitude: -34.9206513,
@@ -46,7 +44,7 @@ export function Home() {
                         }}>
                             <Text
                                 style={{
-                                    color: '#0089a5',
+                                    color: '#e91818',
                                     fontSize: 14
                                 }}
                             >Ong Pet Feliz</Text>
@@ -54,23 +52,6 @@ export function Home() {
                     </Callout>
                 </Marker>
             </MapView>
-
-            <View style={{
-                position: 'absolute',
-                left: 24,
-                right: 24,
-                bottom: 45,
-                paddingLeft:24,
-                
-                height: 56,
-                backgroundColor: '#ffffff',
-                borderRadius: 20,
-
-                flexDirection: 'row',
-                elevation: 6
-            }}>
-
-            </View>
         </View>
     )
 };
